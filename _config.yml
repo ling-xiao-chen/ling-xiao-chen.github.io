@@ -7,10 +7,9 @@
 # server process.
 
 # Basic Site Settings
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: academicpages/academicpages.github.io
 plugins:
   - jekyll-remote-theme
-
 
 locale                   : "en-US"
 title                    : "Lingxiao Chen's Academic Website"
