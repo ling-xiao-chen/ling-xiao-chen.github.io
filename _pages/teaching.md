@@ -5,13 +5,17 @@ layout: single
 author_profile: true
 ---
 
-## Teaching Experience
 
 **Qualitative Research Methods**  
-• Graduate, TA, Fall 2024
+• Graduate, TA, Rollins School of Public Health, Emory University (Fall 2024)
+---
 
-**Development of Sociological Theory**
-• Undergraduate, TA, Fall 2023 
-
+**Teaching Sociology**
+• Pedagogy training, Department of Sociology, Emory University (Spring 2024)
+---
+**Development of Sociological Theory** 
+• Undergraduate, TA, Department of Sociology, Emory University (Fall 2023)
+Undergraduate, TA, Fall 2023 
+---
 **Culture and Society** 
-• Undergraduate, TA, Fall 2022 
+• Undergraduate, TA, Department of Sociology, Emory University (Fall 2022) 
