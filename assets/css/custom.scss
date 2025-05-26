@@ -1,0 +1,7 @@
+/* Avatar as square */
+.author-profile img.avatar {
+  border-radius: 0 !important;   /* remove any rounding */
+  object-fit: cover;             /* fill the square container */
+  width: 150px;                  /* adjust size as you like */
+  height: 150px;
+}

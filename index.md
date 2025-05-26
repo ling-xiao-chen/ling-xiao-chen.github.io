@@ -2,11 +2,12 @@
 layout: splash
 title: "Welcome"
 permalink: /
+author_profile: true
 ---
 
-Welcome! I am Lingxiao Chen, a sociology PhD student at [Emory University] (https://sociology.emory.edu/). I study nationalism, public opinion, and political culture in authoritarian contexts. I use a mixed-methods approach in my research, combining in-depth interviews with survey experiments. My current project examines how audiences engages with and interpret celebrity nationalism in China's entertainment industry. 
+Welcome! I am Lingxiao Chen, a sociology PhD student at [Emory University](https://sociology.emory.edu/). I study nationalism, public opinion, and political culture in authoritarian contexts. I use a mixed-methods approach in my research, combining in-depth interviews with survey experiments. My current project examines how audiences engages with and interpret celebrity nationalism in China's entertainment industry. 
 
-I received a B.A. degree in Sociology and Translation from the University of Hong Kong. I am a first-generation-to-college student. 
+I received a B.A. degree in Sociology and Translation from the [University of Hong Kong](https://sociology.hku.hk/). I am a first-generation-to-college student. 
 
 Feel free to contact me at [lingxiao.chen@emory.edu](lingxiao.chen@emory.edu).
 
