@@ -17,7 +17,7 @@ title_separator          : "-"
 name                     : &name "Lingxiao Chen"
 description              : &description "PhD Student at Emory Sociology"
 url                      : https://ling-xiao-chen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : ""
 repository               : "ling-xiao-chen/ling-xiao-chen.github.io"
 markdown                 : kramdown
 
