@@ -89,9 +89,10 @@
     height: auto;
   }
 
-  img {
-    max-width: 175px;
-    border-radius: 50%;
+  .author__avatar img {
+    border-radius: 0; /* Square shape */
+    width: 100px; /* Adjust size */
+    height: 100px;
 
     @include breakpoint($large) {
       padding: 5px;

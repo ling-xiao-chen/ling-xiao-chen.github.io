@@ -1,18 +1,11 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  name        : "Lingxiao Chen"
+  uri         : "http://ling-xiao-chen.github.io"
+  email       : "lingxiao.chen@emory.edu"
+  bio         : "PhD Student in Sociology"
+  avatar      : "/images/Profile-flower.jpeg"
+  googlescholar: "https://scholar.google.com/citations?user=JUpwP2UAAAAJ&hl=en&oi=ao"
+  orcid       : "https://orcid.org/0009-0000-0751-5750"
+  twitter     : "lingxiao_chenhk"
