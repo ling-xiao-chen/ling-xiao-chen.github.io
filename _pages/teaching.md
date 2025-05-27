@@ -10,14 +10,14 @@ author_profile: true
 *Graduate, TA, Rollins School of Public Health, Emory University (Fall 2024)*
 
 
-**Teaching Sociology**
+**Teaching Sociology**  
 *Pedagogy training, Department of Sociology, Emory University (Spring 2024)*
 
 
-**Development of Sociological Theory** 
+**Development of Sociological Theory**  
 *Undergraduate, TA, Department of Sociology, Emory University (Fall 2023)*
 
 
-**Culture and Society** 
+**Culture and Society**  
 *Undergraduate, TA, Department of Sociology, Emory University (Fall 2022)*
 
