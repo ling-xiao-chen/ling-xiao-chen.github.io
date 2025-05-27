@@ -13,6 +13,7 @@ author_profile: true
 **Teaching Sociology**
 *Pedagogy training, Department of Sociology, Emory University (Spring 2024)*
 
+
 **Development of Sociological Theory** 
 *Undergraduate, TA, Department of Sociology, Emory University (Fall 2023)*
 

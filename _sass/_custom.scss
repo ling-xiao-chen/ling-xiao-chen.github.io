@@ -2,11 +2,9 @@
 ---
 
 /* Make avatar square */
-.author-profile img.avatar {
-  border-radius: 0 !important;
+.author__avatar img {
+  border-radius: 0 !important; /* square */
   object-fit: cover;
-  width: 150px;
-  height: 150px;
 }
 
 body, p, li, blockquote,
