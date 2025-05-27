@@ -1,13 +1,15 @@
-@import "variables";
-$global-font-family : "Times New Roman", Times, serif;
-$header-font-family : "Times New Roman", Times, serif;
-$caption-font-family: "Times New Roman", Times, serif;
-@import "vendor/breakpoint/breakpoint"; // media query mix
+/*  assets/css/main.scss  */
+/*  Do NOT place variable assignments here – keep them in _sass/_variables.scss */
+
+@import "variables";                       /* loads Times New Roman vars first */
+@import "vendor/breakpoint/breakpoint";    /* media‑query mixins */
 @import "mixins";
 
+/* Core resets & base styles */
 @import "reset";
 @import "base";
 
+/* Components */
 @import "utilities";
 @import "animations";
 @import "tables";
@@ -17,12 +19,13 @@ $caption-font-family: "Times New Roman", Times, serif;
 @import "navigation";
 @import "footer";
 @import "syntax";
-
 @import "forms";
 
+/* Page layouts */
 @import "page";
 @import "archive";
 @import "sidebar";
 
+/* Print styles */
 @import "print";
 @import "custom";
