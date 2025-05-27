@@ -1,3 +1,8 @@
+/* override the defaults BEFORE any other files use them */
+$global-font-family : "Times New Roman", Times, serif;
+$header-font-family : "Times New Roman", Times, serif;
+$caption-font-family: "Times New Roman", Times, serif;
+
 @import "variables";
 @import "vendor/breakpoint/breakpoint"; // media query mix
 @import "mixins";

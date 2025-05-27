@@ -69,6 +69,15 @@
           </a>
         </li>
       {% endif %}
+      {% if page.author.orcid %}
+<li><a href="{{ page.author.orcid }}" aria-label="ORCID">
+     <i class="ai ai-orcid"></i></a></li>
+{% endif %}
+
+{% if page.author.googlescholar %}
+<li><a href="{{ page.author.googlescholar }}" aria-label="Google Scholar">
+     <i class="ai ai-google-scholar"></i></a></li>
+{% endif %}
     </ul>
   </div>
 </div>
