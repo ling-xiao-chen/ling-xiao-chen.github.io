@@ -20,9 +20,9 @@ $sans-serif        : -apple-system, ".SFNSText-Regular", "San Francisco",
 $monospace         : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Site‑wide font families */
-$global-font-family  : $garamond;
-$header-font-family  : $garamond;
-$caption-font-family : $garamond;
+$global-font-family  : "Times New Roman", Times, serif;
+$header-font-family  : "Times New Roman", Times, serif;
+$caption-font-family : "Times New Roman", Times, serif;
 
 /* Named typefaces (kept for completeness) */
 $sans-serif-narrow : $sans-serif;
