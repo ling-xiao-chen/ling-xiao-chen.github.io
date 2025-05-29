@@ -30,9 +30,7 @@ author:
   name             : "Lingxiao Chen"
   #pronouns         : 
   bio              : "PhD Student in Sociology"
-  location         : "Atlanta, GA"
   employer         : "Emory University"
-  uri              : "https://ling-xiao-chen.github.io "
   email            : "lingxiao.chen@emory.edu" 
 
   # Academic websites
@@ -40,7 +38,6 @@ author:
   orcid            : "http://orcid.org/0009-0000-0751-5750"
 
   # Social media
-  linkedin         : "lingxiaochen99"
   X                : "lingxiao_chenhk"
 
 # Publication Category - The following the list of publication categories and their headings
@@ -99,7 +96,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &lingxiao_chenhk
 facebook:
   username               :
   app_id                 :
@@ -115,7 +112,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "custom" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
