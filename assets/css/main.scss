@@ -1,6 +1,8 @@
 /*  assets/css/main.scss  */
 /*  Do NOT place variable assignments here – keep them in _sass/_variables.scss */
-
+$global-font-family  : "Times New Roman", Times, serif !default;
+$header-font-family  : "Times New Roman", Times, serif !default;
+$caption-font-family : "Times New Roman", Times, serif !default;
 @import "variables";                       /* loads Times New Roman vars first */
 @import "vendor/breakpoint/breakpoint";    /* media‑query mixins */
 @import "mixins";

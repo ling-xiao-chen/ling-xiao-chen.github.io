@@ -11,7 +11,9 @@
     {% if author.avatar contains "://" %}
       <img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-      <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      <img
+        src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}"
+        alt="{{ author.name }}">
     {% endif %}
   </div>
 
@@ -26,58 +28,51 @@
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li class="author__desktop">
-          <i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}
+          <i class="fa-solid fa-location-dot icon-pad-right"></i>{{ author.location }}
         </li>
       {% endif %}
       {% if author.employer %}
         <li class="author__desktop">
-          <i class="fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}
+          <i class="fa-solid fa-building-columns icon-pad-right"></i>{{ author.employer }}
         </li>
       {% endif %}
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}">
-            <i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Website
+            <i class="fas fa-fw fa-link icon-pad-right"></i>Website
           </a>
         </li>
       {% endif %}
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
-            <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email
+            <i class="fas fa-fw fa-envelope icon-pad-right"></i>Email
           </a>
         </li>
       {% endif %}
+
       {% if author.googlescholar %}
         <li>
           <a href="{{ author.googlescholar }}">
-            <i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar
+            <i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar
           </a>
         </li>
       {% endif %}
       {% if author.orcid %}
         <li>
           <a href="{{ author.orcid }}">
-            <i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>ORCID
+            <i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID
           </a>
         </li>
       {% endif %}
+
       {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}">
-            <i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn
+            <i class="fab fa-fw fa-linkedin icon-pad-right"></i>LinkedIn
           </a>
         </li>
       {% endif %}
-      {% if page.author.orcid %}
-<li><a href="{{ page.author.orcid }}" aria-label="ORCID">
-     <i class="ai ai-orcid"></i></a></li>
-{% endif %}
-
-{% if page.author.googlescholar %}
-<li><a href="{{ page.author.googlescholar }}" aria-label="Google Scholar">
-     <i class="ai ai-google-scholar"></i></a></li>
-{% endif %}
     </ul>
   </div>
 </div>
