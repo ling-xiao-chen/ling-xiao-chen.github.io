@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Qualitative Research Methods"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Graduate course"
+permalink: /teaching/2024-fall-teaching-1
+venue: "Rollins School of Public Health, Emory University"
+date: Fall 2024
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+- Designed and led weekly lab sessions, teaching students how to use MAXQDA for qualitative coding and interview analysis
+- Guided students in developing research questions centered on global health topics
+- Graded assignments, held office hours, and assisted [Dr. Monique Hennink](https://sph.emory.edu/faculty/profile/index.php?FID=monique-hennink-367) with ad hoc responsibilities
