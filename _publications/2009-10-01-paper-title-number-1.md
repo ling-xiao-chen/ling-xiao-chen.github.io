@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Discourses of a Movement."
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2025
+venue: 'Social Problems'
+slidesurl: 'https://academic.oup.com/socpro/advance-article/doi/10.1093/socpro/spaf024/8141202?utm_source=authortollfreelink&utm_campaign=socpro&utm_medium=email&guestAccessKey=c0f9f0b6-9c6d-486c-acf0-e8b2258311cb'
+citation: 'Bin Xu, **Lingxiao Chen**, & Xueqia Zhang. 2025. How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Discourses of a Movement. *Social Problems*.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+*Abstract*: How are social movements that address democratic states’ wrongdoings and violence perceived and discussed by the publics under authoritarian regimes? This significant topic engages in dialogue in three key areas of social movement research—discourses, globalization, and authoritarianism. We address this topic by studying the discourses of the Black Lives Matter movement in four Chinese-speaking publics through an analysis of 1,911 reports and posts from traditional and social media. The discourses vary within and across the publics in complex and surprising ways. The diverse discourses, however, share two patterns: (1) a strong preference for stability, often expressed through exaggerating violence in the protests and using negative historical analogies to the Cultural Revolution; and (2) a popular racism, represented in the racially biased image of “uncivil Blacks.” The variations and commonality can be explained by the interactions between the authoritarian Chinese state’s different modes of involvement—restriction and intervention—and the diverse global experiences of discourse participants. The interactions enact and amplify certain elements of authoritarian political culture in the participants’ horizons of interpretation. This study paves the way for a more systematic research agenda on public discourses of social movements situated at the intersection of democracy and authoritarianism.
