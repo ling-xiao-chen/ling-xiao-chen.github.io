@@ -1,8 +1,8 @@
 ---
-title: "Qualitative Research Methods"
+title: "Qualitative Research Methods, Coursework"
 collection: teaching
-type: "Graduate course"
-permalink: /teaching/2024-fall-teaching-1
+type: "Teaching Assistant, Graduate-level"
+permalink: /teaching/qualitative-research-methods
 venue: "Rollins School of Public Health, Emory University"
 date: 2024-01-15
 ---
