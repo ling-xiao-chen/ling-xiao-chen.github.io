@@ -11,3 +11,8 @@ Welcome! I am Lingxiao Chen, a sociology PhD student at [Emory University](https
 I received a B.A. degree in Sociology and Translation from the [University of Hong Kong](https://sociology.hku.hk/). I am a first-generation-to-college student.
  
 Feel free to contact me at **lingxiao.chen [at] emory [dot] edu**.
+
+
+[Publications](/research/)
+======
+Bin Xu, **Lingxiao Chen**, and Xueqia Zhang. 2025. How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Discourses of a Movement. *Social Problems*. [Link](https://academic.oup.com/socpro/advance-article/doi/10.1093/socpro/spaf024/8141202?utm_source=authortollfreelink&utm_campaign=socpro&utm_medium=email&guestAccessKey=c0f9f0b6-9c6d-486c-acf0-e8b2258311cb)
