@@ -3,7 +3,7 @@ title: "How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Di
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-date: 2025
+date: 2025-09-01
 venue: 'Social Problems'
 slidesurl: 'https://academic.oup.com/socpro/advance-article/doi/10.1093/socpro/spaf024/8141202?utm_source=authortollfreelink&utm_campaign=socpro&utm_medium=email&guestAccessKey=c0f9f0b6-9c6d-486c-acf0-e8b2258311cb'
 citation: 'Bin Xu, **Lingxiao Chen**, & Xueqia Zhang. 2025. How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Discourses of a Movement. *Social Problems*.'
