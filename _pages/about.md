@@ -1,18 +1,19 @@
 ---
 permalink: /
-title: "Welcome!"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am Lingxiao Chen, a sociology PhD student at [Emory University](https://sociology.emory.edu/). I study nationalism, public opinion, and political culture in authoritarian contexts. I use a mixed-methods approach in my research, combining in-depth interviews with survey experiments. My current project examines how audiences engages with and interpret celebrity nationalism in China's entertainment industry. My research has been funded by the [Halle Institute for Global Research and Learning](https://halle.emory.edu/students/graduateglobalresearchfellows.html) and the [OYCF-Chow Fellowship](https://oycf.net/bulletin).
- 
-I received a B.A. degree in Sociology and Translation from the [University of Hong Kong](https://sociology.hku.hk/). I am a first-generation-to-college student.
- 
-Feel free to contact me at **lingxiao.chen [at] emory [dot] edu**.
+Welcome! I am a PhD candidate in the [Department of Sociology](https://sociology.emory.edu/) at Emory University, with broad interests in political and cultural sociology. My research focuses on nationalism, political culture, and public opinion formation. 
 
-[Publication(s)](/publications/)
-======
-Bin Xu, **Lingxiao Chen**, and Xueqia Zhang. 2025. How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Discourses of a Movement. *Social Problems*. [Link](https://academic.oup.com/socpro/advance-article/doi/10.1093/socpro/spaf024/8141202?utm_source=authortollfreelink&utm_campaign=socpro&utm_medium=email&guestAccessKey=c0f9f0b6-9c6d-486c-acf0-e8b2258311cb)
+My dissertation examines how nationalism permeates ostensibly nonpolitical realms like popular culture. Focusing on China’s entertainment sector, I study how the state co-opts stars to amplify nationalism and how ordinary people interpret these displays to draw boundaries of national belonging. On the production side, I investigate how celebrities’ nationalist displays are curated behind the scenes, and what roles the state and audiences play. On the reception side, I explore how citizens in China interpret these cues—and, by extension, how they exercise agency in draw symbolic boundaries of national belonging. I combine in-depth interviews, survey experiments, and ethnographic fieldwork in this work. My research has been funded by the [Halle Institute for Global Research and Learning](https://halle.emory.edu/students/graduateglobalresearchfellows.html) and the [OYCF-Chow Fellowship](https://oycf.net/bulletin). 
+
+I received a B.A. degree in Sociology and Translation from the [University of Hong Kong](https://sociology.hku.hk/). I am a first-generation-to-college student.
+
+While I’m not doing research, I enjoy singing, journaling, hiking in search of the perfect sunset, and watching old movies and standup comedy. I’m also a voracious language learner, always jotting down phrases from new languages—from Korean to Minionese, keeping my Duolingo owl bemused. 
+
+Feel free to contact me at [lingxiao.chen@emory.edu](lingxiao.chen@emory.edu).
+
