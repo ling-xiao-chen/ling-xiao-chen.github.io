@@ -1,0 +1,90 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+<!-- ---------- Intro paragraph ---------- -->
+<p>
+I study nationalism, political culture, public opinion formation, and authoritarian politics.
+My current project examines how nationalism and popular culture become entwined in China’s
+entertainment sector: the state enlists celebrities to amplify nationalist cues, and audiences
+interpret those signals to draw boundaries of national belonging.
+</p>
+
+{% if site.author.googlescholar %}
+<p class="wordwrap">
+You can also find my work on
+<a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>
+{% endif %}
+
+{% include base_path %}
+
+<!-- ========== Publications ========== -->
+<h2>Selected Publications</h2>
+<div class="publication">
+  <strong>How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Discourses of a Movement.</strong><br>
+  <em>Social Problems</em>, Bin Xu, Lingxiao Chen, & Xueqia Zhang. 2025.<br>
+  <a href="javascript:void(0);" onclick="document.getElementById('abstract1').style.display = (document.getElementById('abstract1').style.display === 'none' ? 'block' : 'none');">Show/Hide Abstract</a>
+  <div id="abstract1" style="display:none; margin-top:10px;">
+    <strong>Abstract:</strong> How are social movements that address democratic states’ wrongdoings and violence perceived and discussed by the publics under authoritarian regimes? This significant topic engages in dialogue in three key areas of social movement research—discourses, globalization, and authoritarianism. We address this topic by studying the discourses of the Black Lives Matter movement in four Chinese-speaking publics through an analysis of 1,911 reports and posts from traditional and social media. The discourses vary within and across the publics in complex and surprising ways. The diverse discourses, however, share two patterns: (1) a strong preference for stability, often expressed through exaggerating violence in the protests and using negative historical analogies to the Cultural Revolution; and (2) a popular racism, represented in the racially biased image of “uncivil Blacks.” The variations and commonality can be explained by the interactions between the authoritarian Chinese state’s different modes of involvement—restriction and intervention—and the diverse global experiences of discourse participants. The interactions enact and amplify certain elements of authoritarian political culture in the participants’ horizons of interpretation. This study paves the way for a more systematic research agenda on public discourses of social movements situated at the intersection of democracy and authoritarianism.
+  </div>
+  <br>
+  <a href="https://academic.oup.com/socpro/advance-article/doi/10.1093/socpro/spaf024/8141202?utm_source=authortollfreelink&utm_campaign=socpro&utm_medium=email&guestAccessKey=c0f9f0b6-9c6d-486c-acf0-e8b2258311cb" target="_blank">Slides</a>
+</div>
+
+    <p class="pub-meta">
+      {% if post.authors %}{{ post.authors }}. {% endif %}
+      {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+      {% if post.year %} ({{ post.year }}){% endif %}
+    </p>
+
+    {% assign keys = post.keywords | default: post.tags %}
+    {% if keys %}
+      <ul class="pub-keywords">
+        {% for k in keys %}
+          <li>{{ k }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if post.abstract %}
+      <details class="pub-abstract">
+        <summary>Abstract</summary>
+        <p>{{ post.abstract }}</p>
+      </details>
+    {% endif %}
+  </article>
+  {% endunless %}
+{% endfor %}
+
+<!-- ========== Work in Progress ========== -->
+<h2 id="wip" style="margin-top:2rem">Work in Progress</h2>
+
+{% for post in pubs %}
+  {% if post.status == "inprogress" or post.wip == true %}
+  <article class="pub-item">
+    <h3 class="pub-title">
+      {% if post.url %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    </h3>
+
+    {% assign keys = post.keywords | default: post.tags %}
+    {% if keys %}
+      <ul class="pub-keywords">
+        {% for k in keys %}
+          <li>{{ k }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if post.abstract %}
+      <details class="pub-abstract">
+        <summary>Abstract</summary>
+        <p>{{ post.abstract }}</p>
+      </details>
+    {% endif %}
+  </article>
+  {% endif %}
+{% endfor %}
