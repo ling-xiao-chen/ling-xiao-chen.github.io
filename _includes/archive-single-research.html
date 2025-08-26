@@ -1,0 +1,39 @@
+{% include base_path %}
+
+<div class="pub-item">
+  <!-- Title (no hyperlink) -->
+  <p class="pub-title"><strong>{{ post.title }}</strong></p>
+
+  <!-- Authors -->
+  {% if post.authors %}
+    <p>{{ post.authors }}</p>
+  {% endif %}
+
+  <!-- Venue and year -->
+  {% if post.venue %}
+    <p><em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
+  {% endif %}
+
+  <!-- Keywords -->
+  {% assign keys = post.keywords | default: post.tags %}
+  {% if keys %}
+    <ul class="pub-keywords">
+      {% for k in keys %}
+        <li>{{ k }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <!-- Abstract toggle -->
+  {% if post.abstract %}
+    <details class="pub-abstract">
+      <summary>Abstract</summary>
+      <p>{{ post.abstract }}</p>
+    </details>
+  {% endif %}
+
+  <!-- Citation -->
+  {% if post.citation %}
+    <p><em>Recommended citation:</em> {{ post.citation }}</p>
+  {% endif %}
+</div>

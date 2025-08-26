@@ -1,13 +1,13 @@
 ---
 title: "Performing Nationalism: Audience Boundary Work in Celebrity Politics under Authoritarianism (Under Review)"
 collection: publications
-permalink: /publication/2025-08-01-Celebrity
+# permalink: /publication/2025-08-01-Celebrity
 date: 2025-09-01
 venue: "Working Papers"
-status: "workingpaper"
+status: workingpaper 
 authors: "Lingxiao Chen"
 keywords: ["nationalism", "celebrity politics", "symbolic boundaries", "public opinion"]
-abstract: |
+abstract: >
 How do ordinary people in authoritarian states interpret nationalist
 messages in everyday life? While research has shown how nationalism is
 reproduced through routine practices, less is known about how audiences

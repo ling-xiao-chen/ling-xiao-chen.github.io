@@ -1,98 +1,32 @@
 ---
-layout: single
+layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
 ---
 
-{% include base_path %}
-
 <!-- ---------- Intro paragraph ---------- -->
-<p class="lead">
+<p>
 I study nationalism, political culture, public opinion formation, and authoritarian politics.
 My current project examines how nationalism and popular culture become entwined in China’s
-entertainment sector: the state enlists celebrities to amplify nationalist cues, and audiences
-interpret these nationalist cues to draw boundaries of national belonging.
+entertainment sector: the state enlists celebrities to amplify nationalism, and audiences
+interpret these cues and draw boundaries of national belonging.
 </p>
 
-{% if site.author.googlescholar %}
-<p class="wordwrap">
-  You can also find my work on
-  <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
-</p>
-{% endif %}
+{% include base_path %}
 
-<!-- ---------- Publications ---------- -->
+<!-- ==================== Publications ==================== -->
 <h2>Publications</h2>
-
-{% comment %}
-  Pull all publication items (newest first)
-{% endcomment %}
-{% assign pubs = site.publications | sort: "date" | reverse %}
-
-{% for post in pubs %}
-  {% if post.status != "inprogress" and post.wip != true %}
-  <article class="pub-item">
-    <h3 class="pub-title">{{ post.title }}</h3>
-
-    <p class="pub-meta">
-      {% if post.authors %}{{ post.authors }}.{% endif %}
-      {% if post.venue %} <em>{{ post.venue }}</em>{% endif %}
-      {% if post.date %} {{ post.date | date: "%Y" }}{% endif %}
-    </p>
-
-    {% assign keys = post.keywords | default: post.tags %}
-    {% if keys %}
-      <ul class="pub-keywords">
-        {% for k in keys %}<li>{{ k }}</li>{% endfor %}
-      </ul>
-    {% endif %}
-
-    {% if post.abstract %}
-      <details class="pub-abstract">
-        <summary>Abstract</summary>
-        <div class="abstract-body">
-          {{ post.abstract | markdownify }}
-        </div>
-      </details>
-    {% endif %}
-
-    {% if post.doi or post.url_pdf or post.slidesurl %}
-      <p class="pub-links">
-        {% if post.doi %}<a href="https://doi.org/{{ post.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
-        {% if post.url_pdf %}{% if post.doi %} · {% endif %}<a href="{{ post.url_pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
-        {% if post.slidesurl %}{% if post.doi or post.url_pdf %} · {% endif %}<a href="{{ post.slidesurl }}" target="_blank" rel="noopener">Slides</a>{% endif %}
-      </p>
-    {% endif %}
-  </article>
-  {% endif %}
+{% assign pubs = site.publications | where_exp: "p", "p.status == nil or p.status == 'published' or p.category == 'manuscripts'" %}
+{% for post in pubs reversed %}
+  {% include archive-single-publication.html %}
 {% endfor %}
 
-<!-- ---------- Working Papers ---------- -->
-<h2 id="wip" style="margin-top:2rem">Working Papers</h2>
-
-{% for post in pubs %}
-  {% if post.status == "workingpaper" or post.wip == true %}
-  <article class="pub-item">
-    <h3 class="pub-title">{{ post.title }}</h3>
-
-    {% assign keys = post.keywords | default: post.tags %}
-    {% if keys %}
-      <ul class="pub-keywords">
-        {% for k in keys %}<li>{{ k }}</li>{% endfor %}
-      </ul>
-    {% endif %}
-
-    {% if post.abstract %}
-      <details class="pub-abstract">
-        <summary>Abstract</summary>
-        <div class="abstract-body">
-          {{ post.abstract | markdownify }}
-        </div>
-      </details>
-    {% endif %}
-  </article>
-  {% endif %}
+<!-- ==================== Working Papers ==================== -->
+<h2>Working Papers</h2>
+{% assign working = site.publications | where_exp: "p", "p.status == 'working' or p.status == 'under review' or p.category == 'working-papers'" %}
+{% for post in working reversed %}
+  {% include archive-single-publication.html %}
 {% endfor %}
 
 <!-- ---------- Page-scoped styles ---------- -->
