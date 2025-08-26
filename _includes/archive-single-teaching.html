@@ -1,0 +1,16 @@
+<article class="teaching-item">
+  <h2 class="teaching-title">
+    {{ post.title }}
+  </h2>
+
+  <p class="teaching-meta">
+    {% if post.position %}{{ post.position }}, {% endif %}
+    {% if post.institution %}<em>{{ post.institution }}</em>{% endif %}
+  </p>
+
+  {% if post.description %}
+    <div class="teaching-description">
+      {{ post.description | markdownify }}
+    </div>
+  {% endif %}
+</article>
