@@ -25,9 +25,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Lingxiao Chen"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student in Sociology"
+  bio              : "PhD Student at Emory Sociology"
   location         : "Atlanta, GA"
-  employer         : "Emory University"
+  employer         : # "Emory University"
   uri              : # URL
   email            : "lingxiao.chen@emory.edu" 
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "ling-xiao-chen"
+  github           : # "ling-xiao-chen"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
