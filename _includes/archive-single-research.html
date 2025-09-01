@@ -2,7 +2,7 @@
 
 <div class="pub-item">
   <!-- Title (no hyperlink) -->
-  <p class="pub-title"><strong>{{ post.title }}</strong></p>
+  <p class="pub-title"><strong><a href="{{post.slidesurl}}" target="_blank">{{ post.title }}</a></strong></p>
 
   <!-- Authors -->
   {% if post.authors %}
@@ -17,7 +17,7 @@
   <!-- Keywords -->
   {% assign keys = post.keywords | default: post.tags %}
   {% if keys %}
-    <ul class="pub-keywords">
+    <ul class="pub-keywords inline-list">
       {% for k in keys %}
         <li>{{ k }}</li>
       {% endfor %}
