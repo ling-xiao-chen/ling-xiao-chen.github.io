@@ -1,9 +1,8 @@
 ---
 title: "Culture and Society, Course"
 collection: teaching
-type: "Teaching Assistant, Undergraduate"
-venue: "Department of Sociology, Emory University"
-date: 2022-09-01
+position: "Teaching Assistant, Undergraduate"
+institution: "Department of Sociology, Emory University"
+term: "Fall 2022"
 location: "Atlanta, GA USA"
 ---
-

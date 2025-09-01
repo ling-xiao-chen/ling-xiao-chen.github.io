@@ -1,8 +1,8 @@
 ---
 title: "Teaching Sociology"
 collection: teaching
-type: "Pedagogy Training"
-venue: "Department of Sociology, Emory University"
-date: 2024-01-01
+position: "Pedagogy Training"
+institution: "Department of Sociology, Emory University"
+term: "Spring 2024"
 location: "Atlanta, GA USA"
 ---

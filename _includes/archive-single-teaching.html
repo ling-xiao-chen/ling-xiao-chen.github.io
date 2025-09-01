@@ -1,11 +1,12 @@
 <article class="teaching-item">
-  <h2 class="teaching-title">
+  <h3 class="teaching-title">
     {{ post.title }}
-  </h2>
+  </h3>
 
-  <p class="teaching-meta">
+  <p class="teaching-meta margin-top-remove">
     {% if post.position %}{{ post.position }}, {% endif %}
-    {% if post.institution %}<em>{{ post.institution }}</em>{% endif %}
+    {% if post.institution %}{{ post.institution }},{% endif %}
+    {% if post.term %}{{ post.term }}.{% endif %}
   </p>
 
   {% if post.description %}

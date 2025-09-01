@@ -1,8 +1,8 @@
 ---
 title: "Development of Sociological Theory, Course"
 collection: teaching
-type: "Teaching Assistant, Undergraduate-level"
-venue: "Department of Sociology, Emory University"
-date: 2023-09-01
+position: "Teaching Assistant, Undergraduate-level"
+institution: "Department of Sociology, Emory University"
+term: "Fall 2023"
 location: "Atlanta, GA USA"
 ---
