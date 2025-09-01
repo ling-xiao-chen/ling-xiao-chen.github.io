@@ -27,7 +27,10 @@ interpret these cues and draw boundaries of national belonging.
 {% assign pubs   = pubs_a | concat:pubs_b | uniq %}
 
 {% for post in pubs reversed %}
+{% comment %}
+  I am leaving this out because this file doesn't exist.
   {% include archive-single-publication.html %}
+{% endcomment %}
 {% endfor %}
 
 <!-- ==================== Working Papers ==================== -->
