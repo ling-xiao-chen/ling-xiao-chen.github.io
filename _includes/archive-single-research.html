@@ -1,28 +1,37 @@
 {% include base_path %}
 
 <div class="pub-item">
-  <!-- Title (no hyperlink) -->
-  <p class="pub-title"><strong><a href="{{post.slidesurl}}" target="_blank">{{ post.title }}</a></strong></p>
+  <p class="margin-bottom-sm">
+    {% if post.authors %}
+      {{ post.authors }}.
+    {% endif %}
 
-  <!-- Authors -->
-  {% if post.authors %}
-    <p>{{ post.authors }}</p>
-  {% endif %}
+    {% if post.date %}
+      {{ post.date | date: "%Y" }}.
+    {% endif %}
 
-  <!-- Venue and year -->
-  {% if post.venue %}
-    <p><em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
-  {% endif %}
+    {% if post.slidesurl %}
+      <strong><a href="{{post.slidesurl}}" target="_blank">{{ post.title }}</a></strong>.
+    {% endif %}
 
+    {% if post.venue %}
+      <em>{{ post.venue }}</em>.
+    {% endif %}
+  </p>
+
+  <ul class="margin-top-remove margin-bottom-sm">
   <!-- Keywords -->
   {% assign keys = post.keywords | default: post.tags %}
+  
   {% if keys %}
-    <ul class="pub-keywords inline-list">
+    <li class="inline-list">
+      <strong>Keywords:</strong>
       {% for k in keys %}
-        <li>{{ k }}</li>
+        {{ k }}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
-    </ul>
+    </li>
   {% endif %}
+  </ul>
 
   <!-- Abstract toggle -->
   {% if post.abstract %}
@@ -32,8 +41,4 @@
     </details>
   {% endif %}
 
-  <!-- Citation -->
-  {% if post.citation %}
-    <p><em>Recommended citation:</em> {{ post.citation }}</p>
-  {% endif %}
 </div>

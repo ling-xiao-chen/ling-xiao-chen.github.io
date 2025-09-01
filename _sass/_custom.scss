@@ -9,3 +9,25 @@ ul.inline-list li {
   display: inline;      /* put list items on one line */
   margin-right: 1rem;   /* spacing between items */
 }
+
+/* utilities */
+.margin-bottom-remove {
+  margin-bottom: 0;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 0.5rem;
+}
+
+.margin-top-remove {
+  margin-top: 0;
+}
+
+/* Abstract spacing adjustment */
+.pub-abstract > summary::before {
+  padding-right: 0.5rem;
+}
+
+.pub-abstract {
+  margin: .35rem 1.25rem .7rem !important;
+}
