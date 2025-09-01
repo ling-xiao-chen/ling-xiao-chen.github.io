@@ -1,7 +1,7 @@
 ---
-title: "Qualitative Research Methods, Coursework"
+title: "Qualitative Research Methods"
 collection: teaching
-position: "Teaching Assistant, Graduate-level"
+position: "Lab Instructor, Graduate"
 institution: "Rollins School of Public Health, Emory University"
 term: "Fall 2024"
 ---
