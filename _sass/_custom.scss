@@ -23,6 +23,10 @@ ul.inline-list li {
   margin-top: 0;
 }
 
+.margin-left-md {
+  margin-left: 1rem;
+}
+
 /* Abstract spacing adjustment */
 .pub-abstract > summary::before {
   padding-right: 0.5rem;
@@ -31,3 +35,4 @@ ul.inline-list li {
 .pub-abstract {
   margin: .35rem 1.25rem .7rem !important;
 }
+
