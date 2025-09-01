@@ -17,14 +17,30 @@ interpret these cues and draw boundaries of national belonging.
 
 <!-- ==================== Publications ==================== -->
 <h2>Publications</h2>
-{% assign pubs = site.publications | where_exp: "p", "p.status == nil or p.status == 'published' or p.category == 'manuscripts'" %}
+{% comment %}
+  Jekyll 4 supports the multi-filter syntax whereas Jekyll 3 doesn't. Use a workaround here
+  One-liner reserved here: {% assign pubs = site.publications | where_exp:"p", "p.status == nil or p.status == 'published' or p.category == 'manuscripts'" %}
+{% endcomment %}
+
+{% assign pubs_a = site.publications | where:"status","published" %}
+{% assign pubs_b = site.publications | where:"category","manuscripts" %}
+{% assign pubs   = pubs_a | concat:pubs_b | uniq %}
+
 {% for post in pubs reversed %}
   {% include archive-single-publication.html %}
 {% endfor %}
 
 <!-- ==================== Working Papers ==================== -->
 <h2>Working Papers</h2>
-{% assign working = site.publications | where_exp: "p", "p.status == 'working' or p.status == 'under review' or p.category == 'working-papers'" %}
+{% comment %}
+  {% assign working = site.publications | where_exp: "p", "p.status == 'working' or p.status == 'under review' or p.category == 'working-papers'" %}
+{% endcomment %}
+
+{% assign w1 = site.publications | where:"status","working" %}
+{% assign w2 = site.publications | where:"status","under review" %}
+{% assign w3 = site.publications | where:"category","working-papers" %}
+{% assign working = w1 | concat:w2 | concat:w3 | uniq %}
+
 {% for post in working reversed %}
   {% include archive-single-publication.html %}
 {% endfor %}
