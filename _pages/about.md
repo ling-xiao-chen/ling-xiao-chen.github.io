@@ -15,5 +15,5 @@ I received a B.A. degree in Sociology and Translation from the [University of Ho
 
 In my free time, I enjoy singing, journaling, hiking in search of the perfect sunset, and watching old movies and standup comedy. I’m also a voracious language learner, always jotting down phrases from new languages—from French to Korean to Minionese, keeping my Duolingo owl bemused. 
 
-Feel free to contact me at [lingxiao.chen@emory.edu](lingxiao.chen@emory.edu).
+Feel free to contact me at lingxiao.chen \[at\] emory.edu.
 
