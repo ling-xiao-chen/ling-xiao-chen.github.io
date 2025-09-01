@@ -36,13 +36,13 @@ interpret these cues and draw boundaries of national belonging.
   {% assign working = site.publications | where_exp: "p", "p.status == 'working' or p.status == 'under review' or p.category == 'working-papers'" %}
 {% endcomment %}
 
-{% assign w1 = site.publications | where:"status","working" %}
+{% assign w1 = site.publications | where:"status","workingpaper" %}
 {% assign w2 = site.publications | where:"status","under review" %}
 {% assign w3 = site.publications | where:"category","working-papers" %}
 {% assign working = w1 | concat:w2 | concat:w3 | uniq %}
 
 {% for post in working reversed %}
-  {% include archive-single-publication.html %}
+  {% include archive-single-working-paper.html %}
 {% endfor %}
 
 <!-- ---------- Page-scoped styles ---------- -->

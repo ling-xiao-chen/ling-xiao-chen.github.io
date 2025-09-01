@@ -5,7 +5,7 @@ collection: publications
 date: 2025-09-01
 venue: "Working Papers"
 status: workingpaper
-authors: "Lingxiao Chen"
+authors: "Chen, Lingxiao"
 keywords: ["nationalism", "celebrity politics", "symbolic boundaries", "public opinion"]
 abstract: >
   How do ordinary people in authoritarian states interpret nationalist
