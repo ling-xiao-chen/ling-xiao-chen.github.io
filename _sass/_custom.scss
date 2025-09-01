@@ -1,0 +1,11 @@
+/* use inline-list style for keywords in publications */
+ul.inline-list {
+  list-style: none;     /* remove bullets */
+  padding: 0;           /* reset default padding */
+  margin: 0;            /* reset default margin */
+}
+
+ul.inline-list li {
+  display: inline;      /* put list items on one line */
+  margin-right: 1rem;   /* spacing between items */
+}
