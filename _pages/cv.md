@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-You can find a copy of my CV [here]({{ "/files/CV_Aug2025.pdf" | relative_url }}).
+You can find a copy of my CV [here]({{ "/files/CV_Lingxiao_Chen_Oct2025.pdf" | relative_url }}).
