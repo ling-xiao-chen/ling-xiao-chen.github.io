@@ -1,5 +1,5 @@
 ---
-title: "Performing Nationalism: Audience Boundary Work in Celebrity Politics under Authoritarianism (Under Review)"
+title: "Performing Nationalism: Audience Boundary Work in Celebrity Politics under Authoritarianism (R&amp;R at <em>American Sociological Review</em>)"
 collection: publications
 # permalink: /publication/2025-08-01-Celebrity
 date: 2025-09-01
