@@ -7,22 +7,22 @@
   --color-surface: #f5f0eb;      /* slightly warmer for cards/highlights */
   --color-text: #2d2926;         /* warm charcoal for body text */
   --color-text-muted: #6b6560;   /* warm gray for metadata, dates */
-  --color-accent: #5c7a8a;       /* desaturated slate blue — links, highlights */
-  --color-accent-hover: #3d5a6a; /* darker on hover */
+  --color-accent: #1a5296;       /* academic navy blue — links, highlights */
+  --color-accent-hover: #0f3a70; /* darker on hover */
   --color-border: #e2ddd5;       /* warm border tone */
   --color-highlight: #f0ebe3;    /* highlight background */
   --nav-height: 3.4rem;
 }
 
 html[data-theme="dark"] {
-  --color-bg: #333230;
-  --color-surface: #3e3c39;
-  --color-text: #eae7e2;
-  --color-text-muted: #b3ada5;
-  --color-accent: #9dbbcc;
-  --color-accent-hover: #c0d7e4;
-  --color-border: #4c4944;
-  --color-highlight: #3e3c39;
+  --color-bg: #2a2727;
+  --color-surface: #383434;
+  --color-text: #ece9e5;
+  --color-text-muted: #b5aeaa;
+  --color-accent: #b7d5ee;
+  --color-accent-hover: #dcecfa;
+  --color-border: #4a4444;
+  --color-highlight: #383434;
 }
 
 *,
@@ -143,8 +143,10 @@ a:hover {
 }
 
 .brand {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.18rem;
+  letter-spacing: 0.01em;
   color: var(--color-text);
   margin-right: auto;
   order: 0;
@@ -166,9 +168,11 @@ a:hover {
 }
 
 .nav-links a {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   color: var(--color-text);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1.02rem;
+  letter-spacing: 0.01em;
 }
 
 .nav-links a:hover,
