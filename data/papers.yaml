@@ -1,8 +1,9 @@
 # Publications and working papers shown on the Research page.
 # To add a paper, copy an existing entry and edit the fields.
+# Wrap your own name in ** ** to show it in bold.
 
 publications:
-  - citation_authors: "Chen, Lingxiao"
+  - citation_authors: "**Chen, Lingxiao**"
     year: 2026
     title: "Performing Nationalism: Celebrity Politics and Audience Boundary Work under Authoritarianism"
     venue: "American Sociological Review"
@@ -31,7 +32,7 @@ publications:
       reception of official messaging, and symbolic boundary-making in authoritarian
       settings.
 
-  - citation_authors: "Xu, Bin, Lingxiao Chen, and Xueqia Zhang"
+  - citation_authors: "Xu, Bin, **Lingxiao Chen**, and Xueqia Zhang"
     year: 2025
     title: "How to Say “Black Lives Matter” in Chinese?: Race, Democracy, and Discourses of a Movement"
     venue: "Social Problems"

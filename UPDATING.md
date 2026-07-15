@@ -12,7 +12,7 @@ automatically about two minutes after every commit to `main`.
    `working_papers:` for drafts) and edit the fields:
 
    ```yaml
-   - citation_authors: "Chen, Lingxiao"
+   - citation_authors: "**Chen, Lingxiao**"   # ** ** bolds your name
      year: 2027
      title: "Paper Title Here"
      venue: "Journal Name"

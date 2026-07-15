@@ -3,7 +3,7 @@
   <h2>Publications</h2>
   {{ range . }}
   <div class="pub-item">
-    <p class="pub-cite">{{ .citation_authors }}. {{ .year }}. <strong><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></strong>. <em>{{ .venue }}</em>{{ with .volume_pages }}, {{ . }}{{ end }}.</p>
+    <p class="pub-cite">{{ .citation_authors | markdownify }}. {{ .year }}. <strong><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></strong>. <em>{{ .venue }}</em>{{ with .volume_pages }}, {{ . }}{{ end }}.</p>
     {{ with .keywords }}<p class="pub-keywords"><strong>Keywords:</strong> {{ . }}</p>{{ end }}
     {{ with .abstract }}
     <details class="pub-abstract">

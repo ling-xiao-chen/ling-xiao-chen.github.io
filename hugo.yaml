@@ -15,6 +15,9 @@ params:
     scholar: "https://scholar.google.com/citations?user=JUpwP2UAAAAJ"
     orcid: "https://orcid.org/0009-0000-0751-5750"
     x: "https://x.com/lingxiao_chenhk"
+  # GA4 measurement ID. Loads only on the live site (never in local
+  # previews). Delete this line to disable analytics.
+  analytics: "G-HKF9EVMVV2"
   mysite:
     credit: true
     discovery: true

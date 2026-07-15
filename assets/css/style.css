@@ -15,14 +15,14 @@
 }
 
 html[data-theme="dark"] {
-  --color-bg: #211e1b;
-  --color-surface: #2c2825;
-  --color-text: #e9e5df;
-  --color-text-muted: #a8a199;
-  --color-accent: #8fafc0;
-  --color-accent-hover: #b3cddc;
-  --color-border: #3b3631;
-  --color-highlight: #2c2825;
+  --color-bg: #333230;
+  --color-surface: #3e3c39;
+  --color-text: #eae7e2;
+  --color-text-muted: #b3ada5;
+  --color-accent: #9dbbcc;
+  --color-accent-hover: #c0d7e4;
+  --color-border: #4c4944;
+  --color-highlight: #3e3c39;
 }
 
 *,
