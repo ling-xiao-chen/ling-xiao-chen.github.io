@@ -1,7 +1,7 @@
-# lingxiao-chen
+# ling-xiao-chen.github.io
 
 Personal academic website of **Lingxiao Chen**, PhD Candidate in Sociology at
-Emory University.
+Emory University — live at <https://ling-xiao-chen.github.io/>.
 
 Built with [Hugo](https://gohugo.io/) and deployed to GitHub Pages by the
 workflow in `.github/workflows/deploy.yml` on every push to `main`.
