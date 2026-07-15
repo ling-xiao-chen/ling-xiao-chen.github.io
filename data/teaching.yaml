@@ -1,0 +1,25 @@
+# Teaching history shown on the Teaching page, in order.
+# Each section has a heading and a list of items; "note" renders as an
+# italic tag like (scheduled). Sections with style: plain render without bullets.
+
+- section: "Courses Taught"
+  style: plain
+  items:
+    - text: "Political Sociology — Undergraduate, Spring 2027"
+      note: "scheduled"
+
+- section: "Teaching Assistantships"
+  items:
+    - text: "Qualitative Research Methods — Graduate, Fall 2024"
+    - text: "Development of Sociological Theory — Undergraduate, Fall 2023"
+    - text: "Culture and Society — Undergraduate, Fall 2022"
+
+- section: "Guest Lectures"
+  items:
+    - text: "“Black Lives Matter Discourse in China,” SOC 346, Colby College (Mar 2025)"
+    - text: "“Entertainment and Politics,” SOC 334, Emory University (Apr 2024)"
+    - text: "“Black Lives Matter Discourse in China,” Asian America Series, University of Pennsylvania (Nov 2023)"
+
+- section: "Pedagogy Training"
+  items:
+    - text: "Teaching Sociology — Spring 2024"

@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Params.description | default site.Params.description }}">
+  <meta name="author" content="{{ site.Params.author }}">
+  {{ if site.Params.mysite.discovery -}}
+  <meta name="generator" content="Created using GaryKing.org/mysite (https://gking.harvard.edu/mysite)">
+  {{- end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ .Params.description | default site.Params.description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ "images/photo.jpg" | absURL }}">
+  <script>(function () { try { var t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') { document.documentElement.setAttribute('data-theme', t); } } catch (e) {} })();</script>
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+  {{ with resources.Get "css/style.css" }}
+    {{- $css := . | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ end }}
+  {{ if and site.Params.mysite.discovery .IsHome -}}
+    {{- $person := dict
+      "@context" "https://schema.org"
+      "@type" "Person"
+      "name" site.Title
+      "affiliation" (dict "@type" "Organization" "name" site.Params.affiliation)
+      "url" site.Home.Permalink
+      "isBasedOn" "https://gking.harvard.edu/mysite"
+    -}}
+  <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+  {{- end }}
+</head>

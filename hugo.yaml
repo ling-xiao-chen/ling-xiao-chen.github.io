@@ -1,0 +1,37 @@
+baseURL: "https://lxchen-mandu.github.io/lingxiao-chen/"
+title: "Lingxiao Chen"
+locale: en-us
+
+disableKinds: ["taxonomy", "term", "rss"]
+
+params:
+  description: "PhD Candidate, Department of Sociology, Emory University. Political culture, nationalism, and public opinion formation."
+  author: "Lingxiao Chen"
+  email: "lingxiao.chen@emory.edu"
+  affiliation: "Emory University"
+  byline: "PhD Candidate at Emory Sociology"
+  location: "Atlanta, GA"
+  social:
+    scholar: "https://scholar.google.com/citations?user=JUpwP2UAAAAJ"
+    orcid: "https://orcid.org/0009-0000-0751-5750"
+    x: "https://x.com/lingxiao_chenhk"
+  mysite:
+    credit: true
+    discovery: true
+
+menu:
+  main:
+    - name: Research
+      pageRef: /research
+      weight: 10
+    - name: Teaching
+      pageRef: /teaching
+      weight: 20
+    - name: CV
+      pageRef: /cv
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

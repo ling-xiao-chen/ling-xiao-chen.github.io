@@ -1,0 +1,16 @@
+{{ range hugo.Data.teaching }}
+<section class="teaching-section">
+  <h2>{{ .section }}</h2>
+  {{ if eq .style "plain" }}
+    {{ range .items }}
+    <div class="course-row">{{ .text }}{{ with .note }} <span class="note-tag">({{ . }})</span>{{ end }}</div>
+    {{ end }}
+  {{ else }}
+  <ul class="teaching-list">
+    {{ range .items }}
+    <li>{{ .text }}{{ with .note }} <span class="note-tag">({{ . }})</span>{{ end }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</section>
+{{ end }}
